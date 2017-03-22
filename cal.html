@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Calculadora</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body BACKGROUND="fondo.jpg" onkeypress="tecla(event)">
+		<link href="cal.css" rel="stylesheet" type="text/css">
+    	<div class="pantalla">
+  			<div id="pantallahijo"> <span></span></div>
+		</div>
+		<table align="center" valign="center">
+		<tr>
+			 	<td><button id="botonON" type="button" class="btn btn-primary" align="right" onclick="tecla('C');">C</button></td>
+			 	<td ><button type="button" class="btn btn-primary" onclick="tecla('sqrt');">√</button></td>
+			 	<td ><button type="button" class="btn btn-primary" onclick="tecla('cuadrado');">x²</button></td>
+			 	<td ><button type="button" class="btn btn-primary" onclick="tecla('%');">%</button></td>
+		</tr>
+		<tr>
+			 	<td ><button type="button" class="btn btn-primary" onclick="tecla(7);">7</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(8);">8</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(9);">9</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla('*');">*</button></td>
+		</tr>
+		<tr>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(4);">4</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(5);">5</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(6);">6</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla('-');">-</button></td>
+		</tr>
+		<tr>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(1);">1</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(2);">2</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(3);">3</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla('+');">+</button></td>
+		</tr>
+		<tr>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla(0);">0</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla('=');">=</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla('.');">.</button></td>
+			 	<td><button type="button" class="btn btn-primary" onclick="tecla('/');">/</button></td>
+		</tr>
+	</table>
+		<script src="cal.js"></script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+#botonON{
+	text-align: right;
+	background-color: red;
+}
+
+table {
+	background-color: gray;
+	border: 4px solid black;
+	text-align: center;
+  	border-collapse: separate;
+  	border-spacing:  20px;
+}
+.pantalla {
+	padding: 10px 0 0 0 ;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#pantallahijo{
+  	background-color: white;
+  	border: 6px solid blue;
+  	height: 50px;
+  	width: 250px;
+  	justify-content: center;
+  	align-items: center;
+  	overflow: hidden;
+}
+#pantallahijo span{
+  	padding: 0 6px 0 0;
+  	font-size: 30px;
+  	float: right;
+  	font-weight: 20px;
+  	white-space: nowrap;
+}
+
